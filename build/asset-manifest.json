@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee293c38.css",
+    "main.js": "/static/js/main.deb894ec.js",
+    "static/js/993.15d66c83.chunk.js": "/static/js/993.15d66c83.chunk.js",
+    "static/js/787.ca2749c5.chunk.js": "/static/js/787.ca2749c5.chunk.js",
+    "static/media/1917.jpg": "/static/media/1917.81580e0126e7d1db150a.jpg",
+    "static/media/Justice-League.jpg": "/static/media/Justice-League.24c347853946b8f7d874.jpg",
+    "static/media/endgame.jpg": "/static/media/endgame.00d7aedb855a879aaea6.jpg",
+    "static/media/kot w butach.jpg": "/static/media/kot w butach.33f03602f9891ccef361.jpg",
+    "static/media/bez okładki.jpg": "/static/media/bez okładki.70bf90e35bf5e6d1cf47.jpg",
+    "index.html": "/index.html",
+    "main.ee293c38.css.map": "/static/css/main.ee293c38.css.map",
+    "main.deb894ec.js.map": "/static/js/main.deb894ec.js.map",
+    "993.15d66c83.chunk.js.map": "/static/js/993.15d66c83.chunk.js.map",
+    "787.ca2749c5.chunk.js.map": "/static/js/787.ca2749c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee293c38.css",
+    "static/js/main.deb894ec.js"
+  ]
+}
