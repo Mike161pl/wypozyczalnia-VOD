@@ -40,6 +40,8 @@ Having them installed, type into the terminal:
 git clone https://github.com/Mike161pl/wypozyczalnia-VOD.git
 
 ```
+then run command
+```
 npm i
 ```
 Then, you may run webpack typing in the terminal:
