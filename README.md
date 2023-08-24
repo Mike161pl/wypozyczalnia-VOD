@@ -36,11 +36,9 @@ In the project, I used the knowledge acquired so far from the courses and the en
 The project uses [node](https://nodejs.org/en/), [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/) and compiler [babel](https://babeljs.io/setup#installation) as well as `ESLint` and `Prettier`.
 
 Having them installed, type into the terminal: 
-``````
+```
 git clone https://github.com/Mike161pl/wypozyczalnia-VOD.git
 
-```
-then run command
 ```
 npm i
 ```
