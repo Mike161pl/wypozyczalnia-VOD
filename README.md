@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# React Search App (React and Hooks)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+&nbsp;
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+[⭐ Overview](#⭐-overview)
+  - [The challenge](#the-challenge)
+  - [Installation](#Installation-💿)
+  - [Links](#links)
 
-### `yarn start`
+[💡 My process](#💡-my-process)
+  - [Technologies](#Technologies)
+  - [Solutions provided in the project](#Solutions-provided-in-the-project)
+  - [Useful resources](#useful-resources)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Screenshot](#screenshot)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[🙋‍♂️ Author](#🙋‍♂️-author)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+&nbsp;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⭐ Overview
+For me, this is one of the biggest projects created in React at the moment.
+In the project, I used the knowledge acquired so far from the courses and the entire learning process. I used Bootstrap in the project to learn how to use its library and to speed up my work. The application is in development, so in the future you can expect further updates. I also used firebase as a server to store data and to host my application.
+&nbsp;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **The challenge:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+&nbsp;
 
-### `yarn eject`
+### **Installation 💿**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The project uses [node](https://nodejs.org/en/), [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/) and compiler [babel](https://babeljs.io/setup#installation) as well as `ESLint` and `Prettier`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Having them installed, type into the terminal: 
+```
+npm i
+```
+Then, you may run webpack typing in the terminal:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm start
+```
+App is available using the following addresses:
+-http://localhost:3000
+`````
+You can log in to existing accounts that already have saved data by typing
+- email address: test@o2.pl or test@gmail.com
+- and password: test123 for both accounts
+``````
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+or you can create your own account and add your favorite movie to the directory
 
-## Learn More
+&nbsp;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Links:**
+- [GitHub Pages](https://react-wyszukiwarka.web.app/)
+- [GitHub](https://github.com/Mike161pl/wypozyczalnia-VOD)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+&nbsp;
+ 
+## 💡 My process
 
-### Code Splitting
+&nbsp;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **Technologies:**
 
-### Analyzing the Bundle Size
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+&nbsp;
+  
+### **Solutions provided in the project:**
+- HTML:
+    - The project was built using semantic HTML5 markup.
+- CSS:
+    - CSS style components, modules and Bootstrap classes were used in this project
+- JS:
+    - ES2015+ (arrow functions, destructuring, spread operator)
+- React:
+    - The following hooks were used: `useState`, `useContext`, `useReducer`,`useHistory`,`useRef`... and also `Custom Hook`.
+    - Data is stored in `firebase` and passed to the Components using the `axios`.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Hook `useReducer` is used to control the form with user inputs. Thanks to destructuring it is possible to conveniently store data.
 
-### Advanced Configuration
+```
+export const reducer = (state, action) => {
+  switch (action.type) {
+    case 'change-theme':
+      const theme = state.theme === 'danger' ? 'secondary' : 'danger';
+      return {...state, theme };
+    case 'login':
+      return {...state, user: action.user };
+    case 'logout':
+      return {...state, user: null };
+    default:
+      throw new Error('Nie ma takiej akcji: ' + action.type);
+  }
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+&nbsp;
 
-### Deployment
+### **Useful resources:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [localStorage](http://kursjs.pl/kurs/storage/storage.php)
 
-### `yarn build` fails to minify
+&nbsp;
+## **Screenshot:**
+&nbsp;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](./app-screen.png)
+&nbsp;
+
+## 🙋‍♂️ Author
+
+The project was made by Michał Plaszczak.
+- Github - Mike161pl (https://github.com/Mike161pl)
+- LinkedIn - @Michał Plaszczak (https://www.linkedin.com/in/michal-plaszczak/)
+
+ **If you have any questions do not hesitate to contact me.**
+
+
