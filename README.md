@@ -36,8 +36,11 @@ In the project, I used the knowledge acquired so far from the courses and the en
 The project uses [node](https://nodejs.org/en/), [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/) and compiler [babel](https://babeljs.io/setup#installation) as well as `ESLint` and `Prettier`.
 
 Having them installed, type into the terminal: 
+``````
 git clone https://github.com/Mike161pl/wypozyczalnia-VOD.git
 
+```
+then run command
 ```
 npm i
 ```
@@ -48,11 +51,11 @@ npm start
 ```
 App is available using the following addresses:
 -http://localhost:3000
-`````
+
 You can log in to existing accounts that already have saved data by typing
 - email address: test@o2.pl or test@gmail.com
 - and password: test123 for both accounts
-``````
+
 
 or you can create your own account and add your favorite movie to the directory
 
