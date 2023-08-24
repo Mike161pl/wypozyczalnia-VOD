@@ -57,7 +57,7 @@ or you can create your own account and add your favorite movie to the directory
 &nbsp;
 
 ### **Links:**
-- [GitHub Pages](https://react-wyszukiwarka.web.app/)
+- [Life URl](https://react-wyszukiwarka.web.app/)
 - [GitHub](https://github.com/Mike161pl/wypozyczalnia-VOD)
 
 &nbsp;
