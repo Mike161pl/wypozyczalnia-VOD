@@ -37,9 +37,9 @@ The project uses [node](https://nodejs.org/en/), [npm](https://www.npmjs.com/), 
 
 Having them installed, type into the terminal: 
 
-
+`````
 git clone https://github.com/Mike161pl/wypozyczalnia-VOD.git
-```
+````
 then,
 ````
 npm i
