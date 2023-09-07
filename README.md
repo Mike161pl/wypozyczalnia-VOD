@@ -62,7 +62,7 @@ or you can create your own account and add your favorite movie to the directory
 &nbsp;
 
 ### **Links:**
-- [Life URl](https://react-wyszukiwarka.web.app/)
+- [Life URl](https://vod-react-app.web.app/)
 - [GitHub](https://github.com/Mike161pl/wypozyczalnia-VOD)
 
 &nbsp;
